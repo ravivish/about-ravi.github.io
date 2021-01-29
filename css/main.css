@@ -25,29 +25,29 @@ nav {
     margin: 4px;
     font-size: 30px;
 }
-.nav-item{
+.nav-item {
     font-size: 25px;
     color: white;
     text-decoration: underline;
     padding: 8px;
 }
 
-.main-sub-section{
+.main-sub-section {
     text-align: center;
 }
 
-.title-heading{
+.title-heading {
     font-size: 50px;
 }
-.section-detail{
+.section-detail {
     text-align: center;
 }
 
-.section-items{
+.section-items {
     font-size: 20px;
 }
 
-.main-section-detail{
+.main-section-detail {
     margin: 0 60px;
     font-size: 40px;
     font-weight: bold;
@@ -55,4 +55,12 @@ nav {
 .project-details{
     font-size: 20px;
     font-weight: 500;
+}
+
+.main-section-detail p {
+    margin-bottom: 0px;
+}
+
+.main-home-section {
+    
 }

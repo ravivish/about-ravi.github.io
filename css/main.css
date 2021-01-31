@@ -64,4 +64,12 @@ nav {
 .main-home-section {
     margin-left: 10%;
     margin-right: 10%;
+    font-size: medium;
+    font-weight: bold;
 }
+
+.main-sub-section{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+

@@ -54,7 +54,7 @@ nav {
 }
 .project-details{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .main-section-detail p {
@@ -64,8 +64,8 @@ nav {
 .main-home-section {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: medium;
-    font-weight: bold;
+    font-size: large;
+    /* font-weight: bold; */
 }
 
 .main-sub-section{
@@ -73,3 +73,6 @@ nav {
     margin-left: 10%;
 }
 
+.project-title {
+    margin-top: 0px;
+}

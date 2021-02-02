@@ -2,6 +2,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
 }
+a:link{
+    text-decoration: none;
+}
 nav {
     text-align: right;
     color: white;
@@ -55,7 +58,6 @@ nav {
 .project-details{
     font-size: 20px;
     font-weight: 400;
-    text-decoration: none;
 }
 
 .main-section-detail p {

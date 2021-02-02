@@ -55,6 +55,7 @@ nav {
 .project-details{
     font-size: 20px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .main-section-detail p {

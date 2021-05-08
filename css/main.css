@@ -79,3 +79,73 @@ nav {
 .project-title {
     margin-top: 0px;
 }
+
+/* Media Queries */
+
+/* @media only screen and (min-width: 750px) {
+    .header {
+        background : url(./header-image.jpg);
+        background-size: cover;
+        color: white;
+        height: 250px;
+    }
+    .header-main-heading {
+        margin: 4px;
+        font-size: 30px;
+    }
+    .header-sub-heading {
+        margin: 4px;
+        font-size: 20px;
+    }
+
+} */
+@media only screen and (max-width: 600px) {
+    /* styles for wide screens */
+    .header {
+        /* background : url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80); */
+        background : url(./header-image.jpg);
+        background-size: cover;
+        color: white;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+    }
+    .header-heading {
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+    .header-main-heading {
+        margin: 4px;
+        font-size: 35px;
+    }
+    .header-sub-heading {
+        margin: 4px;
+        font-size: 25px;
+    }
+    .title-heading {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    /* styles for narrow screens */
+    .header-main-heading {
+        margin: 4px;
+        font-size: 25px;
+    }
+    .header-sub-heading {
+        margin: 4px;
+        font-size: 15px;
+    }
+    .title-heading {
+        font-size: 25px;
+    }
+    .header {
+        /* background : url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80); */
+        background : url(./header-image.jpg);
+        background-size: cover;
+        color: white;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+}
